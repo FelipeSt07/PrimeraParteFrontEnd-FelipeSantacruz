@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Lista de Mascotas - Adopción de Mascotas</title>
+    <style>
+        body {
+            background-image: url('images/fondo.jpg'); /* Asegúrate de tener la misma imagen de fondo */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+        .mascota-container {
+            backdrop-filter: blur(5px);
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4 text-center"><i class="fas fa-paw"></i> Lista de Mascotas Disponibles</h1>
+        
+        <!-- Aquí se generará la lista de mascotas -->
+        <div class="row">
+            <!-- Ejemplo de tarjeta de mascota -->
+            <div class="col-md-4">
+                <div class="mascota-container">
+                    <h3>Nombre de la Mascota</h3>
+                    <img src="images/mascota1.jpg" class="img-fluid" alt="Mascota 1"> <!-- Cambia la imagen según corresponda -->
+                    <p><strong>Especie:</strong> Perro</p>
+                    <p><strong>Raza:</strong> Labrador</p>
+                    <p><strong>Edad:</strong> 3 años</p>
+                    <p><strong>Estado de adopción:</strong> Disponible</p>
+                    <a href="/solicitudes/nueva" class="btn btn-warning">Solicitar Adopción</a>
+                </div>
+            </div>
+
+            <!-- Puedes repetir este bloque para más mascotas -->
+            <div class="col-md-4">
+                <div class="mascota-container">
+                    <h3>Nombre de la Mascota</h3>
+                    <img src="images/mascota2.jpg" class="img-fluid" alt="Mascota 2">
+                    <p><strong>Especie:</strong> Gato</p>
+                    <p><strong>Raza:</strong> Siames</p>
+                    <p><strong>Edad:</strong> 2 años</p>
+                    <p><strong>Estado de adopción:</strong> Disponible</p>
+                    <a href="/solicitudes/nueva" class="btn btn-warning">Solicitar Adopción</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="mascota-container">
+                    <h3>Nombre de la Mascota</h3>
+                    <img src="images/mascota3.jpg" class="img-fluid" alt="Mascota 3">
+                    <p><strong>Especie:</strong> Perro</p>
+                    <p><strong>Raza:</strong> Poodle</p>
+                    <p><strong>Edad:</strong> 5 años</p>
+                    <p><strong>Estado de adopción:</strong> Disponible</p>
+                    <a href="/solicitudes/nueva" class="btn btn-warning">Solicitar Adopción</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center my-4">
+            <a href="/" class="btn btn-light">Volver a Inicio</a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

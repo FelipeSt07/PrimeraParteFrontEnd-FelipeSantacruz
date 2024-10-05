@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Bienvenida - Adopción de Mascotas</title>
+    <style>
+        body {
+            background-image: url('images/fondo.jpg'); /* Asegúrate de tener una imagen de fondo en la carpeta public/images */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+        .welcome-container {
+            backdrop-filter: blur(5px);
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 50px;
+            border-radius: 10px;
+            margin-top: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container welcome-container">
+        <h1 class="my-4"><i class="fas fa-paw"></i> ¡Bienvenido a la Adopción de Mascotas!</h1>
+        <p>Únete a nuestra misión de encontrar un hogar para mascotas necesitadas. Explora nuestra lista de mascotas disponibles y haz una solicitud de adopción hoy mismo.</p>
+        <div class="my-4">
+            <a href="/mascotas" class="btn btn-light btn-lg mr-3">Ver Mascotas</a>
+            <a href="/solicitudes/nueva" class="btn btn-warning btn-lg">Nueva Solicitud de Adopción</a>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
